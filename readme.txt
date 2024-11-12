@@ -34,4 +34,17 @@ git commit -m "Add new feature in new-branch"
 
 4. Push the branch to github
 git push -u origin new-branch
+_________________________________________________________________________________________________
+3rd Commit - Merging and Pulling
+
+1. Merge Branch into Main
+git checkout main
+git merge new-branch
+
+2. Push Merged Changes to GitHub
+git push origin main
+
+3. Pull Latest Changes from GitHub
+git pull origin main
+
 
